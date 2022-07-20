@@ -10,7 +10,7 @@ Source:         https://files.pythonhosted.org/packages/source/d/ddtrace/ddtrace
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(cython)
-BuildRequires:  python3dist(setuptools_scm)
+BuildRequires:  python3dist(setuptools-scm)
 # SECTION test requirements
 #BuildRequires:  %{python_module intervaltree}
 BuildRequires:  python3dist(protobuf)
