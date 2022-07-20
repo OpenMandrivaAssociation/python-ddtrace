@@ -20,6 +20,7 @@ BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(wheel)
 BuildRequires:  python3dist(pip)
 # /SECTION
+BuildRequires:  ninja
 BuildRequires:  fdupes
 #Requires:       python-intervaltree
 Requires:       python-protobuf >= 3
