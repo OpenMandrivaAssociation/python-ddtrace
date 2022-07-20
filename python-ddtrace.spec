@@ -35,7 +35,7 @@ Datadog tracing code
 
 %prep
 %setup -q -n ddtrace-%{version}
-#rm tox.ini
+rm tox.ini
 
 %build
 %py_build
