@@ -6,11 +6,11 @@ Summary:        Datadog tracing code
 Url:            https://github.com/DataDog/dd-trace-py
 Group:          Development/Languages/Python
 Source:         https://files.pythonhosted.org/packages/source/d/ddtrace/ddtrace-%{version}.tar.gz
-BuildRequires:  python-rpm-macros
-BuildRequires:  %{python_module devel}
-BuildRequires:  %{python_module setuptools}
-BuildRequires:  %{python_module Cython}
-BuildRequires:  %{python_module setuptools_scm}
+
+BuildRequires:  pkgconfig(python)
+BuildRequires:  python3dist(setuptools)
+BuildRequires:  python3dist(cython)
+BuildRequires:  python3dist(setuptools_scm)
 # SECTION test requirements
 #BuildRequires:  %{python_module intervaltree}
 BuildRequires:  python3dist(protobuf)
