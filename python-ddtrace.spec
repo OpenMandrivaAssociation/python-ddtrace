@@ -17,6 +17,8 @@ BuildRequires:  python3dist(protobuf)
 #BuildRequires:  python3dist(tenacity)
 BuildRequires:  python3dist(flake8)
 BuildRequires:  python3dist(pytest)
+BuildRequires:  python3dist(wheel)
+BuildRequires:  python3dist(pip)
 # /SECTION
 BuildRequires:  fdupes
 #Requires:       python-intervaltree
